@@ -185,16 +185,20 @@ table.dataTable thead th.sorting {
 }
 
 .sorting_asc {
-	background: url('../images/sort_asc.png') no-repeat center right;
+	/*background: url('../images/sort_asc.png') no-repeat center right;*/
+	background: url('/images/icons/up-25.png') no-repeat center right;
+	background-size: auto 14px;
 }
 
 .sorting_desc {
-	background: url('../images/sort_desc.png') no-repeat center right;
+	/*background: url('../images/sort_desc.png') no-repeat center right;*/
+	background: url('/images/icons/down-25.png') no-repeat center right;
+	background-size: auto 14px;
 }
 
-.sorting {
+/*.sorting {
 	background: url('../images/sort_both.png') no-repeat center right;
-}
+}*/
 
 .sorting_asc_disabled {
 	background: url('../images/sort_asc_disabled.png') no-repeat center right;
@@ -249,11 +253,12 @@ table.display tr.even.gradeU {
 
 
 tr.odd {
-	background-color: #E2E4FF;
+	/*background-color: #f1f1f1;*/
+	background-color: #eee;
 }
 
 tr.even {
-	background-color: white;
+	background-color: #eee;
 }
 
 
@@ -353,21 +358,21 @@ td.details {
 .paging_full_numbers a.paginate_active {
 	background-color: #99B3FF;
 }
-
+/*
 table.display tr.even.row_selected td {
 	background-color: #B0BED9;
 }
 
 table.display tr.odd.row_selected td {
 	background-color: #9FAFD1;
-}
+}*/
 
 
 /*
  * Sorting classes for columns
  */
 /* For the standard odd/even */
-tr.odd td.sorting_1 {
+/*tr.odd td.sorting_1 {
 	background-color: #D3D6FF;
 }
 
@@ -389,7 +394,7 @@ tr.even td.sorting_2 {
 
 tr.even td.sorting_3 {
 	background-color: #F9F9FF;
-}
+}*/
 
 
 /* For the Conditional-CSS grading rows */
